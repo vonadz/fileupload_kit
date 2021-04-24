@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+dist
+package-lock.json
+yarn.lock
+/examples/**/.svelte
+/examples/**/build
+/packages/create-svelte/template/CHANGELOG.md
+.env
+.vercel_build_output
+.netlify
+.svelte
+.cloudflare
+.pnpm-debug.log

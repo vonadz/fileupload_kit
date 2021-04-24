@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"noEmit": true,
+		"noImplicitAny": true,
+		"target": "es2020",
+		"module": "es2020",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"paths": {
+			"test": ["./test/types"],
+			"types/*": ["./types/*"],
+			"@sveltejs/kit": ["../types"]
+		}
+	},
+	"include": ["src/**/*", "test/**/*", "types/**/*", "test/types.d.ts", "test/ambient.d.ts"]
+}

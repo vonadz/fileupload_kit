@@ -1,0 +1,13 @@
+{
+	"root": true,
+	"extends": "@sveltejs",
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"settings": {
+		"import/ignore": "/template/"
+	},
+	"rules": {
+		"@typescript-eslint/no-var-requires": "off"
+	}
+}
